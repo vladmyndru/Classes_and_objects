@@ -20,6 +20,7 @@ public class Person {
 
         person1.setProfession("soldier");
 
+        System.out.println();
         System.out.println("Updated information about the person");
         person1.info();
     }
@@ -30,10 +31,7 @@ public class Person {
         this.profession = profession;
     }
     public void info () {
-        System.out.println("Name: " + name);
-        System.out.println("Age: " + age);
-        System.out.println("Profession: " + profession);
-        System.out.println();
+        System.out.println("Name: " + name + " Age: " + age + " Profession: " + profession);
     }
 
     public void setProfession (String newProfession) {
